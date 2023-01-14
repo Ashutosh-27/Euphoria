@@ -36,7 +36,7 @@ class BLogdb extends CI_Model{
 	}
 
 	function getblog($id){
-		$this->db->select('blog.* , blog_content.blog_content_id , GROUP_CONCAT(blog_content_blog_text) as content , GROUP_CONCAT(blog_img) as imgs' );
+		$this->db->select('blog.* , blog_content.blog_content_id , GROUP_CONCAT(blog_content_blog_text SEPARATOR "==>") as content , GROUP_CONCAT(blog_img SEPARATOR "==>") as imgs ' );
 		$this->db->from('blog');
 		$this->db->join('blog_content','blog_content.blog_content_blog_id = blog.blog_id','left');
 		$this->db->group_by('blog.blog_id'); 

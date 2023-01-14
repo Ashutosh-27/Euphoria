@@ -1,4 +1,30 @@
-       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<footer>
+			<div class="footer_inner">
+				<div class='part1'>
+					<div class="img_container">
+						<img src='<?php echo base_url("assets/images/when_energy.jpg")?>' alt='user' />
+					</div>
+
+					<div class='content'>
+						So I encourage you all to take benefits of my Reiki services and transform yourself to positivity , healthy and blissful life .
+					</div>
+				</div>
+				<div class="part2">
+					<h4 style="font-family: 'Dancing Script', cursive;">For consultation please prebook and reach <br /> out to me on.</h4>
+					<ul>
+						<li><i class="bi bi-whatsapp"></i> +91 xxxxx xxxxx </li>
+						<li> <i class="bi bi-instagram"></i> pitaleDipali</li>
+						<li><i class="bi bi-envelope"></i> pitaledipali@gamil.com</li>
+						<li><i class="bi bi-twitter"></i> Dipali Pitale</li>
+					</ul>
+				</div>
+			</div>
+			<div class="copy_right text-center">
+				<h5>All copyrights reserved - Dipali Pitale</h5>
+			</div>
+		</footer>
+      
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 
@@ -12,7 +38,7 @@
        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
-       <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+       <script src="https://cdn.tiny.cloud/1/5bx6z2eqd762b2t4vpgafy7pmi0sxw2aq79zsxri40j8wa9w/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
        <script>
            tinymce.init({
                selector: '.mytextarea'
@@ -49,7 +75,8 @@
 
                function addTinyMCE() {
                    tinymce.init({
-                       selector: 'textarea'
+                       selector: 'textarea',
+                       invalid_elements : "script",
                    });
                }
            })

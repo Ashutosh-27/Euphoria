@@ -1,13 +1,13 @@
 		<div class="head" style="height:120px;padding-top:10px;width:80%;margin:auto">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 col-8">
 					<span>
 						<a href="<?= base_url() ?>"><img src="<?= base_url('assets/images/rekiki.png') ?>" style="height:100px"></a>
 					</span>
 				</div>
-				<div class="col-md-6 d-flex justify-content-end align-items-center pe-4">
+				<div class="col-md-6 col-4 d-flex justify-content-end align-items-center pe-4">
 					<span>
-						<a id="show-sidebar" class="btn btn-lg p-0 fs-2" href="#">
+						<a id="show-sidebar" class="btn btn-lg p-0 fs-2" href="#" >
 							<i class="bi bi-list"></i>
 						</a>
 					</span>
@@ -19,14 +19,14 @@
 		<div class='section1 header_poster-caption'>
 			<section>
 
-				<div class="header_caption">
+				<div class="header_caption m-auto p-0 d-flex justifu-content-center align-items-center">
 					<div class="header-content">
-						<div class="header_content-subtitle">Welcome to Euphoria Reikhi
-						</div>
+						<!-- <div class="header_content-subtitle">Welcome to Euphoria Reikhi
+						</div> -->
 						<div class="mb-5" id="typing_text_container">
 							<h1 class="text-center" id="typing_text_h">
-								<a href="" class="typewrite" data-period="800" data-type='[ "Connect", "Heal", "Revive", "Enhance" ]'>
-									<span class="wrap"></span>
+								<a href="" style="font-size:3em !important;" class="typewrite" data-period="800" data-type='[ "Connect", "Heal", "Revive", "Enhance" ]'>
+									<span class="wrap" ></span>
 								</a>
 							</h1>
 						</div>
@@ -113,11 +113,11 @@
 		<div class="container-fluid">
 			<div class="section4">
 				<div class="section4_inner">
-					<h2 class='section4_title'>Direct and Distance Healing</h2>
+					<h2 class='section4_title' style="font-family: 'Dancing Script', cursive;color:#f98ad8">Direct and Distance Healing</h2>
 
 					<p>In Direct Healing session we place our hands directly on affected area of your body so that energy flowing through our hands can get imbibed in your affected part. The flow of energy and duration is depends on your requirement of recovery. Most of the people think healing treatments are ‘in ‘ person’ form of only. </p>
 
-					<p><strong>Have you ever heard that the benefit of this healing treatment can be taken even from distance?</strong><br />
+					<p><strong style="color:#f98ad8">Have you ever heard that the benefit of this healing treatment can be taken even from distance?</strong><br />
 						Let me enrich your knowledge with other form of Reiki treatment i.e Distance reiki Yes! Reiki treatment can be obtained even from distance and can be given to to anyone across any corner of the world. If you are unable to make it in person for a reiki treatment, you can still receive a distance / remote healing session. It’s the exact same as receiving it in person so it means you can get the support you need</p>
 
 					<p>It is possible because energy is not confined and can transcend time and space so it is easily transmitted anywhere. Although at first it may be difficult to trust but, there are many instances where people have actually benefitted and have yielded good results <strong>These services can also be offered for the wellbeing of relatives or friends who may not be aware of the Reiki or its benefits and can help them to bring balance in their physical and emotional health </strong> . </p>
@@ -324,7 +324,7 @@
 
 			<div class="sensation_section mt-5 mb-5 pt-5">
 				<div class="sensation_inner">
-					<h3>When Can You Have a Reiki Treatment?</h3>
+					<h2 style="font-family: 'Dancing Script', cursive;color:#f98ad8">When Can You Have a Reiki Treatment?</h2>
 					<span class="ps-2 fs-6 text-muted">Reiki does not have to be a stand-alone treatment. The beauty of reiki is that it can also be used :</span>
 					<!-- <div class="owl-carousel border">
 
@@ -390,7 +390,7 @@
 								<span class="sensation_imgs mb-2 d-flex justify-content-center">
 									<img src="<?php echo base_url('assets/images/when_relax.png') ?>" style="width:150px;height:auto;margin:auto" />
 								</span>
-								<span class="ps-1 pe-1 d-flex  align-items-end">
+								<span class="ps-1 pe-1 d-flex  align-items-end" >
 									When you are not ill but want a relaxing treatment; As a relaxation treatment
 								</span>
 							</div>
@@ -485,35 +485,32 @@
 
 			<div class="testimonials_section">
 				<div class="testimonial_section-inner">
-					<h3 class='testimonial_heading'>Testimonials</h3>
+					<h2 class='testimonial_heading' style="font-family: 'Dancing Script', cursive">Testimonials</h2>
 					<div class="testimonials_cards">
 						<div class="carousel_container">
 							<div class="owl-carousel when_section_carousel">
 
-								<div class="card">
-									Reiki does not have to be a stand-alone treatment. The beauty of reiki is that it can also be used
+								<div class="card p-4">
+									<div class="row">
+										<div class="col-12 col-md-12 d-flex justify-content-center align-items-center">
+											<img src="<?php echo base_url('assets/images/user.png') ?>" style="width: 80px;height:auto;border-radius:50%"/>
+										</div>
+										<div class="col-12 col-md-12 mt-3">
+											Reiki does not have to be a stand-alone treatment. The beauty of reiki is that it can also be used
+										</div>
+									</div>
 								</div>
 
-								<div class="card">
-									When you are not ill but want a relaxing treatment; As a relaxation treatment
-								</div>
+								
 
-								<div class="card">
-									When you just want a pick me up or to boost your energy levels; Boost Energy Levels
-								</div>
-
-								<div class="card">
-									When you just want a pick me up or to boost your energy levels; Boost Energy Levels When you are on medication; While on medication
-								</div>
-
-								<div class="card">
-									When you are going for surgery (before, during and after) Before ,During and After Surgery. When you are in hospital; When you are hospitalized
-								</div>
-
-								<div class="card">
-									When you are pregnant or trying to become pregnant; or with other complimentary therapies. Trying to conceive or with any alignment or with any other complementary therapies
-								</div>
-
+							</div>
+						</div>
+						<div class="row mt-3 d-flex justify-content-center align-items-center text-center">
+							<div class="testimonial_readmore">
+								<a href="<?php echo base_url('home/testimonial')?>" class="text-white">
+									<span class="d-block"><u>Read More</u></span>
+									<span class="d-block"><i class="bi bi-arrow-down-circle"></i></span>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -524,7 +521,7 @@
 
 			<div class="sensation_section" style="margin:8em 0;">
 				<div class="sensation_inner">
-					<h3>How you may feel during and after Reiki session:</h3>
+					<h1 style="font-family: 'Dancing Script', cursive;color:#f98ad8">How you may feel during and after Reiki session:</h1>
 					<div class='span1'>
 						<p>During session people feel warm sensation, or tingling or even piercing. These are common experiences, some people may feel overwhelming emotions as well while others don’t sense during session anything but experiences the good result of it.
 						</p>
@@ -541,28 +538,4 @@
 		</section>
 
 
-		<footer>
-			<div class="footer_inner">
-				<div class='part1'>
-					<div class="img_container">
-						<img src='./user.png' alt='user' />
-					</div>
-
-					<div class='content'>
-						So I encourage you all to take benefits of my Reiki services and transform yourself to positivity , healthy and blissful life .
-					</div>
-				</div>
-				<div class="part2">
-					<h4>For consultation please prebook and reach <br /> out to me on.</h4>
-					<ul>
-						<li><i class="bi bi-whatsapp"></i> +91 xxxxx xxxxx </li>
-						<li> <i class="bi bi-instagram"></i> pitaleDipali</li>
-						<li><i class="bi bi-envelope"></i> pitaledipali@gamil.com</li>
-						<li><i class="bi bi-twitter"></i> Dipali Pitale</li>
-					</ul>
-				</div>
-			</div>
-			<div class="copy_right text-center">
-				<h5>All copyrights reserved - Dipali Pitale</h5>
-			</div>
-		</footer>
+		
