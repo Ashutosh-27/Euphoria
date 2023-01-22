@@ -95,7 +95,7 @@ class Blog extends CI_Controller
 
 
 			$this->session->set_tempdata('success_msg', 'Blog added successfully', 1);
-			redirect('blog');
+			redirect('admin/');
 		}
 	}
 
