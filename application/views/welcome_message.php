@@ -16,7 +16,7 @@
 		</div>
 
 
-		<div class='section1 header_poster-caption'>
+		<div class='section1 header_poster-caption' style="background-image: url('<?php echo base_url("assets/images/2055.jpg")?>');">
 			<section>
 
 				<div class="header_caption m-auto p-0 d-flex justifu-content-center align-items-center">
@@ -42,72 +42,10 @@
 			</section>
 		</div>
 
-		<!-- <div class="header-content2">
-			<div class="header-content2_inner">
-				<div class="video ">
-					<div class="d-flex align-items-center justify-content-center h-100" id="#quick_container">
-						<button class="btn btn-lg btn-light text-underline" data-bs-toggle="modal" data-bs-target="#exampleModal">
-							<u>Quick Info</u></button>
-					</div>
-				</div>
-				<div class="content">
-					<h2 class="title">You're good at something <br /> Let's monetize it.</h2>
-					<hr />
-					<div class="info">
-						Hellooooo! Myself Dipali, a Reiki Master Healer, provider of traditional Reiki service of Dr. MIKAU USUI and just passionate about helping people to transform their lives and connect to their inner self by overcoming negative aura afflicting their physical , emotional and spiritual health with the help of Reiki healing and let them experience the infinite bliss .
-
-					</div>
-				</div>
-
-			</div>
-		</div> -->
+		
 
 
-
-		<!-- <div class="container">
-			<div class="modal modal-lg fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h1 class="modal-title fs-5" id="exampleModalLabel">Quick overview</h1>
-							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-						</div>
-						<div class="modal-body">
-							<div class="section2 mb-1 p-4">
-
-
-								<div>
-									<div>
-
-										<p>Well many of you may have heard Reiki but do you really understand what Reiki means and what is its origin and why it is suggested as a complementary therapy by some of the medical practitioner? So lets us understand first the roots of the Reiki.
-
-										</p>
-
-										<p>Everywhere you will get this definition that, the term <strong>“Reiki” comes from the Japanese words “Rei”, which means Universal and “ki” which means Life force Energy</strong>. OK! That’s true though, but, as a layman its might hard for you to understand how this Universal Life Force Energy plays very vital role in our material and non-material life.
-
-										</p>
-
-										<p>Every creature on this planet is made of energy even non material things has energy which is actually sourced from Universal Life Force Energy and the mantra to stay healthy emotionally and physically is proper balance of this energy through nooks and corners of our body. Simply to give an example, as a kids we are always active and energetic as this Universal energy is properly balanced but as we grow old , we encounter more stress which hinders the smooth flow of this life force energy which ultimately results in health illness where it can’t be reached upon .
-										</p>
-
-										<p>As a Reiki healer being conduit of this energy we remove these blockages, clear negative aura enlightens you with required Universal life force energy which as a result helps you to lessen the impact of stress, it also relieves tension from entire system helping you to replenish and refocus embarking a striking unique balance in body, mind and spirit.<strong>It is also like with the onset of the Reiki treatment the body’s own healing mechanism starts functioning more efficiently. </strong>
-
-										</p>
-
-										<h1 class="title">Is Reiki harmful?</h1>
-										<p>
-											As a newbie to Reiki ,the question whether Reiki will cause any harm will definitely dwindled across your mind .But let me assure you that with Reiki you only earn benefits to rejuvenated the inner being and will never cause harm to anyone either. Reiki works recognising healers’ strong intention and emotion of healing only.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-
-		</div> -->
+		
 
 
 		<div class="container-fluid">
@@ -130,11 +68,11 @@
 					<p>Normally for physical or emotional issues at least for 21 to 45 days Reiki Sessions are required.<strong>However, Reiki can work magically even in lesser period as I explained earlier about my relative.</strong>
 					</p>
 
-					<div class="benefits_content">
+					<div class="benefits_content" style="background-image: url('<?php base_url("assets/images/cherry-blossom-2.jpg")?>')";>
 						<div class='benefits_content-inner'>
 
 
-							<div class="img_container">
+							<div class="img_container" style="background-image: url('<?php echo base_url('assets/images/cherry-blossom-2.jpg')?>');">
 								<div class='heading_content'>
 									<h4>Benefits of a Distant <br></br>Reiki</h4>
 									<span>Distant healing offers the exact same benefits of an in person treatment. Yet, it means you have access to the benefits of a healing session whether you</span>
@@ -266,59 +204,7 @@
 
 		</div>
 
-		<!-- <div class="container">
-			<div class="section5">
-				<div class="section5_inner">
-					<h2 class='section5_title'>When Can You Have a Reiki Treatment?</h2>
-					<div class="section5_carousel-container">
-
-						<div class="section5_card">
-							<p>
-								1. Reiki does not have to be a stand-alone treatment. The beauty of reiki is that it can also be used:
-							</p>
-						</div>
-
-
-						<div class="section5_card">
-							<p>
-								2. When you are not ill but want a relaxing treatment; As a relaxation treatment
-							</p>
-						</div>
-
-						<div class="section5_card">
-							<p>
-								3. When you just want a pick me up or to boost your energy levels; Boost Energy Levels
-							</p>
-						</div>
-
-						<div class="section5_card">
-							<p>
-								4. When you just want a pick me up or to boost your energy levels; Boost Energy Levels
-								When you are on medication; While on medication
-
-							</p>
-						</div>
-
-						<div class="section5_card">
-							<p>
-								5. When you are going for surgery (before, during and after) Before ,During and After Surgery. When you are in hospital; When you are hospitalized
-
-							</p>
-						</div>
-
-						<div class="section5_card">
-							<p>
-								6. When you are pregnant or trying to become pregnant; or
-								with other complimentary therapies. Trying to conceive or with any alignment or with any other complementary therapies
-							</p>
-						</div>
-
-
-
-					</div>
-				</div>
-			</div>
-		</div> -->
+	
 
 		<section class='section6'>
 
@@ -483,7 +369,7 @@
 				</div>
 			</div>-->
 
-			<div class="testimonials_section">
+			<div class="testimonials_section" style="background-image: url('<?php echo base_url("assets/images/cherry-blossom-3-carousel-r.jpg")?>');">
 				<div class="testimonial_section-inner">
 					<h2 class='testimonial_heading' style="font-family: 'Dancing Script', cursive">Testimonials</h2>
 					<div class="testimonials_cards">

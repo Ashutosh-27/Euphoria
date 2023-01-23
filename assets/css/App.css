@@ -153,7 +153,7 @@ strong{
 
 /* #------------------- Home -Header.css ------------- */
 .header_poster-caption {
-  background-image: url('http://localhost/euphoria/assets/images/2055.jpg');
+  
   
   background-size: cover;
   background-position: center;
@@ -1033,7 +1033,7 @@ strong{
 }
 
 .img_container {
-  background-image: url("http://localhost/euphoria/assets/images/cherry-blossom-2.jpg");
+  
   /* The image used */
   background-color: #cccccc;
   /* Used if the image is unavailable */
@@ -1103,7 +1103,7 @@ strong{
   }
 
   .benefits_content {
-    background-image: url("http://localhost/euphoria/assets/images/cherry-blossom-2.jpg");
+    
 
     width: 98%;
     background-position: center;
@@ -1377,7 +1377,7 @@ strong{
 
 .testimonials_section {
   width: 100%;
-  background-image: url("http://localhost/euphoria/assets/images/cherry-blossom-3-carousel-r.jpg");
+  
   background-color:#fab0e26e ;  
   height: max-content;
   background-position: center;
